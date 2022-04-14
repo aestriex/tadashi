@@ -7,6 +7,7 @@ const client = new Client({ intents: [Intents.FLAGS.GUILDS] });
 client.commands = new Collection();
 const commandFiles = fs.readdirSync('./commands').filter(file => file.endsWith('.ts'));
 
+
 for (const file of commandFiles) {
 	const command = require(`./commands/${file}`);
 	client.commands.set(command.data.name, command);
