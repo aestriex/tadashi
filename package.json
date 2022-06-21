@@ -1,0 +1,19 @@
+{
+  "name": "tadashi",
+  "version": "0.0.0",
+  "description": "Streamlined, self-hosted Discord moderation asset",
+  "main": "index.js",
+  "scripts": {
+    "prod": "node .",
+    "dev": "nodemon index.js"
+  },
+  "keywords": ["discord-moderation", "discord-bot"],
+  "author": "Aestriex",
+  "license": "ISC",
+  "dependencies": {
+    "discord-api-types": "^0.29.0",
+    "mongoose": "^6.2.4",
+    "nodemon": "unknown",
+    "discord-js" "13.5.0"
+  },
+}
